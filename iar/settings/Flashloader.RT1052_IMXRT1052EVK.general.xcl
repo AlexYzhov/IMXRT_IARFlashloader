@@ -1,0 +1,19 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armjlink2.dll" 
+
+"F:\Proj_IMXRT\IMXRT_IARFlashloader\iar\RT1052_IMXRT1052EVK\Exe\RT1052_IMXRT1052EVK.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\NXP\iMXRT.dmac" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\NXP\iMXRT_Trace.dmac" 
+
+--macro "F:\Proj_IMXRT\IMXRT_IARFlashloader\iar\Flashloader\RT1052_RAM\FlashIMXRT1050_RAM.mac" 
+
+--flash_loader "F:\Proj_IMXRT\IMXRT_IARFlashloader\iar\Flashloader\RT1052_RAM\FlashIMXRT1050_RAM.board" 
+
+
+
+
