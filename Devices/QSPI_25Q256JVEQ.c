@@ -107,7 +107,6 @@ static uint32_t init(void *base_of_flash)
     CLOCK_InitUsb1Pfd(kCLOCK_Pfd0,  24);   /* Set PLL3 PFD0 clock 360MHZ. */
     CLOCK_SetMux(kCLOCK_FlexspiMux, 0x3);  /* Choose PLL3 PFD0 clock as flexspi source clock. */
     CLOCK_SetDiv(kCLOCK_FlexspiDiv, 2);    /* flexspi clock 120M. */
-	SCB_DisableDCache();				   /* Disables the D-Cache. */
 	
 	/* Set AHB buffer size for reading data through AHB bus. */
     FLEXSPI_Init(FLEXSPI, &config);
